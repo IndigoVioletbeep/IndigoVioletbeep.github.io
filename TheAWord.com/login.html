@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title> TheAWord.com </title>
+<!-- Below is the Code for the navigation of different pages and top bar-->
+<body style="background-color:black;">
+
+<fieldset class="nav">
+
+<h1 class="Title" align="left"> <b> The A Word.com </b> </h1> 
+
+<p class="date" align="center">
+<script> document.write(new Date().toLocaleDateString()); </script>
+</p> 
+
+<fieldset class="navButtons" align="right">
+<button onclick="location.href='index.html'" type="button" class="nav">Home</button>
+<button onclick="location.href='blog.html'" type="button" class="nav">Blog</button>
+<button onclick="location.href='about.html'" type="button" class="nav">About</button>
+</fieldset>
+
+</fieldset>
+<!-- End of top bar -->
+	
+</head>
+
+<body>
+<link rel="stylesheet" href="stylesheetMain.css">
+<script src="loginCheck.js"></script>
+<br><br><br><br><br><br>
+
+<div class="loginContainer">
+<br><br><br>
+	<form action="error.html" method="post">
+	<h2 class="loginLabels"> Username: </h2>
+	<input id="username" class="loginInputs" name="Username" type="text" required disabled>
+	
+	<h2 class="loginLabels"> Password: </h2>
+	<input id="password" class="loginInputs" name="Password" type="password" required disabled>
+	<input type="submit" class="nav" style="bottom:5%;position:absolute;width:80%;left:10%;"> Login </input>
+	</form>
+</div>
+
+<?php 
+var EnteredUser = $_POST["Username"];
+echo EnteredUser;
+?>
+
+</body>
+
+</html>

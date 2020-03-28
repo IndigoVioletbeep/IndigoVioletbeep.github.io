@@ -1,0 +1,159 @@
+fieldset.nav {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	background-color:black;	
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:5px;
+	border-color:white;
+	border-style:solid;
+	margin-bottom:4px;
+
+}
+
+button.back {
+	background-color:black;
+	padding:10px 20px;
+	border:solid;
+	font-size:24px;
+	color:white;
+	cursor:pointer;
+	width:23%;
+	float:left;
+	
+}
+
+button.back:hover {
+	background-color:white;
+	color:black;
+	border:solid;
+	border-color:black;
+}
+
+button.login {
+	background-color:black;
+	padding:10px 20px;
+	border:solid;
+	font-size:24px;
+	color:white;
+	cursor:pointer;
+	width:23%;
+	float:right;
+
+}
+
+button.login:hover {
+	background-color:white;
+	color:black;
+	border:solid;
+	border-color:black;
+}
+
+div.popular {
+	width:23%;
+	right:0;
+	top:20%;
+	background-color:#202020;
+	min-height:75%;
+	position:fixed;
+
+}
+
+div.popPostContainer {
+margin:0;
+border:0;
+}
+
+p.popularPostText {
+width:50%;
+float:right;
+font-size:24px;
+color:white;
+}
+
+img.popularSitesImg {
+height:width;
+width:50%;
+cursor:pointer;
+left:0;
+}
+
+img.popularSitesImg:hover {
+margin-bottom:5px;
+}
+
+h1.Title  {
+
+	font-size:65px;
+	color:white;
+	margin:0px;
+	top:0;
+	width:50vw;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+fieldset.navButtons {
+	position:absolute;
+	right:0;
+	top:0;
+	align:right;
+	background-color:white;
+	width:600px;
+	height:80px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+
+}
+button.nav {
+	background-color:black;
+	padding:20px 50px;
+	border:solid;
+	font-size:34px;
+	color:white;
+	cursor:pointer;
+}
+
+button.nav:hover {
+	background-color:white;
+	color:black;
+	border:solid;
+	border-color:black;
+	
+}
+p.date{ 
+position:absolute;
+left:45vw;
+width:10vw;
+color:white;
+top:20px;
+font-size:40px;
+margin:0px;
+}
+
+
+fieldset.blogtext {
+position:absolute;
+background-color:#202020;
+border:none;
+width:50%;
+left:25%;	
+}
+
+h1.titleBlog {
+color:white;
+font-size:45px;
+font-family:monaco,Consolas,Lucida Console,monospace; 
+}
+
+p.textBlog {
+color:white;
+font-size:30px;
+font-family:monaco,Consolas,Lucida Console,monospace; 
+
+}

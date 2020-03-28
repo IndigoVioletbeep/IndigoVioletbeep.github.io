@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title> TheAWord.com </title>
+<!-- Below is the Code for the navigation of different pages and top bar-->
+<body style="background-color:black;">
+
+<fieldset class="nav">
+
+<h1 class="Title" align="left"> <b> The A Word.com </b> </h1> 
+
+<p class="date" align="center">
+<script> document.write(new Date().toLocaleDateString()); </script>
+</p> 
+
+<fieldset class="navButtons" align="right">
+<button onclick="location.href='index.html'" type="button" class="nav">Home</button>
+<button onclick="location.href='blog.html'" type="button" class="nav">Blog</button>
+<button onclick="location.href='about.html'" type="button" class="nav">About</button>
+</fieldset>
+
+</fieldset>
+<!-- End of top bar -->
+	
+</head>
+
+<body>
+<link rel="stylesheet" href="stylesheetMain.css">
+<br><br><br><br><br><br>
+
+<h1 class="welcome" align="centre"> All Blog Posts (new-old) </h1>
+
+<fieldset class="blogPosts">
+<!-- Insert new blogs ABOVE -->
+	<fieldset class="postContainerBlog">
+	<img src="images/quarantine.png" alt="A quarantine sign" class="featuredPostImg"> 
+	<h2 align="center" class="postTitleBlog">COVID-19 Message</h2>
+	<p class="postTextBlog"> Just what i wanted to say on COVID-19. Its not a very long article, but its worth a read. </p>
+	<button onclick="location.href='blogs/covid19message.html'" type="button"  align="right" class="readmore"> Read More>> </button>
+	</fieldset>
+
+	<fieldset class="postContainerBlog">
+	<img src="images/book.png" alt="A book" class="featuredPostImg"> 
+	<h2 align="center" class="postTitleBlog">The Beauty of a Story </h2>
+	<p class="postTextBlog"> This is an article i wrote after watching an incredibly satisfying romantic film, and i was overcome with emotion. I wrote the title of the blog entry impulsively, and i think its quite a nice quote.</p>
+	<button onclick="location.href='blogs/TheBeautyOfAStory.html'" type="button"  align="right" class="readmore"> Read More>> </button>
+	</fieldset>
+
+	<fieldset class="postContainerBlog">
+	<img src="images/creeper aw man.png" alt="A creeper" class="featuredPostImg"> 
+	<h2 align="center" class="postTitleBlog">Just why is Minecraft so darn good? </h2>
+	<p class="postTextBlog"> I can very, very confidently say that we've all played, or at least heard of Minecraft. It's seen as a legendary game by many, and is held in the hearts of many more. Me included. In this article you'll find all of my favourite moments, aspects and features of this wondrous game.</p>
+	<button onclick="location.href='blogs/MinecraftArticle.html'" type="button" class="readmore"> Read More>> </button>
+	</fieldset>
+	
+	<fieldset class="postContainerBlog">
+	<img src="images/shruggie.png" alt="A shrug ASCII placeholder" class="featuredPostImg"> 
+	<h2 align="center" class="postTitleBlog">Blog Template</h2>
+	<p class="postTextBlog"> The template i created to make writing blogs a bit easier, please enjoy the wonderful Lorem Ipsum inside.</p>
+	<button onclick="location.href='blogs/blogTemplate.html'" type="button" class="readmore"> Read More>> </button>
+	</fieldset>
+
+</fieldset>
+
+</body>
+
+</html>
